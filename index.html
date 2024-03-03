@@ -124,21 +124,21 @@
           <img src="images/ds-1.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <label for="" class="form-label">Label: <span id="sliderValue05">Value </span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="" oninput>
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider05">
+            <label for="" class="form-label">Label: <span id="sliderValue06">Value </span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="">
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider06">
+            <label for="" class="form-label">Label: <span id="sliderValue07">Value </span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="">
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider07">
             <a href="#" class="btn btn-primary">Go somewhere </a>
           </div>
         </div>
@@ -149,21 +149,21 @@
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <label for="" class="form-label">Label: <span id="sliderValue08">Value </span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="">
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider08">
+            <label for="" class="form-label">Label: <span id="sliderValue09">Value </span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="">
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider09">
+            <label for="" class="form-label">Label: <span id="sliderValue10">Value </span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="">
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider10">
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
@@ -174,22 +174,22 @@
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <label for="" class="form-label">Label: <span id="sliderValue11">Value </span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="">
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider11">
+            <label for="" class="form-label">Label: <span id="sliderValue12">Value </span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="">
-            <label for="" class="form-label">Label: <span id="">Value </span><span data-bs-toggle="tooltip"
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider12">
+            <label for="" class="form-label">Label: <span id="sliderValue13"></span><span data-bs-toggle="tooltip"
                 data-bs-title="hello world">?</span>
 
             </label>
-            <input type="range" class="form-range" min="0" max="10" step=".1" id="">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <input type="range" class="form-range" min="0" max="10" step=".1" id="slider13
+            <a href=" #" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
@@ -251,6 +251,88 @@
     }
 
     slider04.onchange();
+
+    var slider05 = document.getElementById("slider05");
+    var sliderValue05 = document.getElementById("sliderValue05");
+
+    slider05.onchange = function (event) {
+      sliderValue05.innerHTML = slider05.value;
+    }
+
+    slider05.onchange();
+
+    var slider06 = document.getElementById("slider06");
+    var sliderValue06 = document.getElementById("sliderValue06");
+
+    slider06.onchange = function (event) {
+      sliderValue06.innerHTML = slider06.value;
+    }
+
+    slider06.onchange();
+
+    var slider07 = document.getElementById("slider07");
+    var sliderValue07 = document.getElementById("sliderValue07");
+
+    slider07.onchange = function (event) {
+      sliderValue07.innerHTML = slider07.value;
+    }
+
+    slider07.onchange();
+
+    var slider08 = document.getElementById("slider08");
+    var sliderValue08 = document.getElementById("sliderValue08");
+
+    slider08.onchange = function (event) {
+      sliderValue08.innerHTML = slider08.value;
+    }
+
+    slider08.onchange();
+
+    var slider09 = document.getElementById("slider09");
+    var sliderValue09 = document.getElementById("sliderValue09");
+
+    slider09.onchange = function (event) {
+      sliderValue09.innerHTML = slider09.value;
+    }
+
+    slider09.onchange();
+
+    var slider10 = document.getElementById("slider10");
+    var sliderValue10 = document.getElementById("sliderValue10");
+
+    slider10.onchange = function (event) {
+      sliderValue10.innerHTML = slider10.value;
+    }
+
+    slider10.onchange();
+
+    var slider11 = document.getElementById("slider11");
+    var sliderValue11 = document.getElementById("sliderValue11");
+
+    slider11.onchange = function (event) {
+      sliderValue11.innerHTML = slider11.value;
+    }
+
+    slider11.onchange();
+
+    var slider12 = document.getElementById("slider12");
+    var sliderValue12 = document.getElementById("sliderValue12");
+
+    slider12.onchange = function (event) {
+      sliderValue12.innerHTML = slider12.value;
+    }
+
+    slider12.onchange();
+
+    var slider13 = document.getElementById("slider13");
+    var sliderValue13 = document.getElementById("sliderValue13");
+
+    slider13.onchange = function (event) {
+      sliderValue13.innerHTML = slider13.value;
+    }
+
+    slider13.onchange();
+
   </script>
 
 
